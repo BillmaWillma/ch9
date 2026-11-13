@@ -11,7 +11,7 @@ public class Longest {
 				maxl = arg.length();
 				max = arg;
 			}
-			if(fa.compareTo(arg)>0){
+			if(fa.compareToIgnoreCase(arg)>0){
 				fa = arg;
 			}
 		}
